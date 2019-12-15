@@ -15,8 +15,39 @@ body>header>div {
     margin-left: auto;
     margin-right: auto;
     background-image: $background-image-day-night-url;
+    background-size: 100%;
+    background-position: 50% 70%;
     height: 400px;
     border-bottom-right-radius: 40%;
+}
+
+body>header>div>div.landing-logo>img {
+    padding-top: 10px;
+}
+
+body>header>div>div.landing-logo>p {
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
+body>header>div>p.header_heading {
+    width: 200px;
+    padding-left: 100px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+body>header>div>p.header_text {
+    width: 500px;
+    padding-left: 100px;
+}
+
+body>header>div>div.landing-logo>img {
+    padding-left: 100px;
+}
+
+body>header>div>div:nth-child(4)>button {
+    margin-left: 100px;
 }
 
 body>main>div.section_card_wrap {
@@ -27,6 +58,18 @@ body>main>div.section_card_wrap {
 
 body>main>div.section_card_wrap>div.section_card {
     margin: 0 -5px;
+}
+
+body>main>div.section_card_wrap>div>div>p.section_card_text {
+    color: $button-text-color;
+}
+
+body>main>div.section_card_wrap>div>div>p.section_card_heading {
+    color: $button-text-color;
+}
+
+body>main>div.section_card_wrap>div>div>a {
+    color: $button-text-color;
 }
 
 body>header>div>div:nth-child(4)>button {
@@ -93,6 +136,7 @@ body>main>div.section_card_wrap>div:nth-child(3)>img {
 }
 
 body>main>div.section_banner {
+    margin: 0 600px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -126,4 +170,20 @@ body>main>div.section_banner>button {
     color: $button-text-color;
     background-color: $buttons-color;
     border-color: $buttons-color;
+}
+
+body>main {
+    position: relative;
+}
+
+body>main>div.section_banner {
+    position: absolute;
+    right: 45px;
+    top: 600px;
+    width: 650px;
+}
+
+body>footer>div {
+    width: 100%;
+    margin-top: 165px;
 }
