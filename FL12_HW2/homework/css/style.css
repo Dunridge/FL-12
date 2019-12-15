@@ -74,6 +74,12 @@ body>div>div.tm-main-content>section.blocks>div.padding-medium.flex-item.tm-team
     background: lightgrey;
 }
 
+
+/*test code: you have to figure out how to add the hover effect to the li items*/
+
+
+/*this is incorrect: you should apply the styles to the li items*/
+
 .tm-section-title-box:hover {
     background: lightgrey;
     border-top: 0px;
@@ -83,6 +89,9 @@ body>div>div.tm-main-content>section.blocks>div.padding-medium.flex-item.tm-team
     color: lightskyblue;
     font-style: italic;
 }
+
+
+/*ends here*/
 
 .padding-medium h2 {
     text-align: center;
