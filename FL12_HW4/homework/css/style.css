@@ -1,0 +1,164 @@
+body>header>div {
+    background-image: url(../img/home-bg.jpg);
+    height: 700px;
+}
+
+body>header>div {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    color: white;
+}
+
+#sticky_element_id {
+    margin-left: 0px;
+}
+
+body>header>div>div>p>span {
+    display: flex;
+    flex-direction: column;
+}
+
+body>header>div>div>p>span {
+    color: yellow;
+    font-size: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+body>header>div>div>p {
+    font-size: 60px;
+}
+
+body>header>div>div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+body>main>div.sticky_element {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: white;
+}
+
+body>header>div>div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+body>header>div>div>button {
+    width: 150px;
+    margin-left: 275px;
+    height: 40px;
+    border-radius: 20px;
+}
+
+body>main>div:nth-child(2)>div>button {
+    height: 40px;
+    border-radius: 20px;
+}
+
+body>main>div:nth-child(3)>div>button {
+    height: 40px;
+    border-radius: 20px;
+}
+
+body>main>div:nth-child(4)>div>button {
+    height: 40px;
+    border-radius: 20px;
+}
+
+body>main>div:nth-child(5)>div>button {
+    height: 40px;
+    border-radius: 20px;
+}
+
+body>main>div:nth-child(6)>div>button {
+    height: 40px;
+    border-radius: 20px;
+}
+
+body>header>div {
+    margin-bottom: 80px;
+}
+
+body>main>div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+body>footer>div {
+    background-color: black;
+    color: white;
+}
+
+body>footer>div>div:nth-child(1) {
+    width: 48%;
+    float: left;
+}
+
+body>footer>div>div:nth-child(2) {
+    width: 48%;
+    float: right;
+}
+
+body>footer>div {
+    height: 300px;
+}
+
+body>main>div:nth-child(2)>div {
+    margin-bottom: 120px;
+}
+
+body>main>div:nth-child(3)>div {
+    margin-bottom: 120px;
+}
+
+body>main>div:nth-child(4)>div {
+    margin-bottom: 120px;
+}
+
+body>main>div:nth-child(5)>div {
+    margin-bottom: 120px;
+}
+
+body>main>div:nth-child(6)>div {
+    margin-bottom: 120px;
+}
+
+body>main>div>img {
+    height: 600px;
+}
+
+body>main>div>div>p.section_card_heading {
+    font-weight: bold;
+    font-size: 35px;
+}
+
+body>main>div>div>div>img {
+    float: left;
+    height: 30px;
+    width: 30px;
+    border-radius: 20px;
+}
+
+body>main>div>div>div>p {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+body>main>div>div>div>p>span {
+    margin-right: 10px;
+    margin-left: 5px;
+}
