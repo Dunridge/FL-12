@@ -1,0 +1,63 @@
+/* Todo: your styles go here*/
+
+#root > first-folder-div {
+    display: block;
+    height: 30px;
+}
+
+#root > second-folder-div {
+    margin-top: 75px;
+    display: block;
+    height: 30px;
+}
+
+
+#root > first-folder-div > svg {
+    height: 30px;
+    width: 30px;
+}
+
+#root > second-folder-div > svg {
+    height: 30px;
+    width: 30px;
+}
+
+#iron-man-avi-id {
+    display: block;
+    margin-left: 45px;
+    
+}
+
+#fantasy-folder-id {
+    margin-left: 45px;
+}
+
+#fantasy-folder-id > first-empty-folder {
+    display: block;
+    margin-left: 55px;
+}
+
+#new-folder-id > first-empty-folder {
+    display: block;
+    margin-left: 25px;
+}
+
+#lord-of-the-rings-id {
+    display: block;
+    margin-left: 55px;
+}
+
+#new-folder-id {
+    display: block;
+    margin-left: 55px;
+}
+
+#epam-homework-answers-id {
+    display: block;
+    margin-left: 45px;
+}
+
+#second-folder-id > empty-folder {
+    margin-left: 55px;
+}
+
